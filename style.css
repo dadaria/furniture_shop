@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    background-image: url(img/slider-img.jpg);
+    min-height: 800px;
+}
+
+img[alt="logo"] {
+    margin-top: 63px;
+    padding-left: 98px;
+}
+
+nav {
+    float: right;
+    margin-top: 67px;
+    margin-right: 21px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+}
+
+nav li a:hover {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+img[alt="search"] {
+    float: right;
+    margin-top: 67px;
+    margin-right: 167px;
+}
+
+.text {
+    margin-top: 288px;
+    margin-left: 98px;
+    width: 462px;
+}
+
+.text h3 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.text h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+.text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.text button, .exclusive button, .order button {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    border-radius: 22px;
+}
+
+.text button a, .exclusive button a, .order button a {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.text button:hover, .exclusive button:hover, .order button:hover {
+    background: #ffffff url(img/arrow.png) no-repeat 173px 15px;
+}
+
+img[alt="navi"] {
+    margin-top: 130px;
+    margin-left: 623px;
+}
+
+.featured {
+    width: 1171px;
+    margin: 0 auto;
+    display: block;
+}
+
+.tabs li {
+    list-style: none;
+    float: left;
+    display: block;
+}
+
+.tabs li a {
+    display: block;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.tabs li a:active {
+    color: #212121;
+    border-bottom: 3px solid black;
+}
+
+.explore {
+    float: right;
+    margin-top: 138px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 3px;
+    background: #fff;
+    display: block;
+}
+
+.explore:hover {
+    background: url(img/arrow.png) no-repeat 131px;
+}
+
+.images {
+    width: 1170px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 98px;
+    display: block;
+}
+
+.images .image {
+    display: inline-block;
+    width: 270px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.images .image:last-child {
+    margin-right: 0;
+}
+
+.images .hover {
+    width: 252px;
+    height: 268px;
+    position: absolute;
+    top: 0px;
+    padding-left: 15px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    display: none;
+}
+
+.images .image .hover img {
+    margin-left: 101px;
+}
+
+.images .image .hover h3 {
+    margin-top: 19px;
+    margin-left: 50px;
+}
+
+.images .image .hover p {
+    margin-top: 23px;
+}
+
+.images .image:hover .hover {
+    display: block;
+}
+
+.hover img[alt="arrow"] {
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    padding: 14px 18px;
+    margin-top: 62px;
+}
+
+.order {
+    margin-top: 120px;
+    width: 1366px;
+    float: right;
+    display: block;
+}
+
+.order .chair {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.order .chair .hover {
+    position: absolute;
+    width: 374px;
+    top: 228px;
+    left: 51px;
+}
+
+.order .chair .hover h4 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.order .chair .hover h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.order .chair .hover p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.trends {
+    width: 1170px;
+    margin-left: 98px;
+    display: block;
+}
+
+.trends h2 {
+    float: left;
+    margin-top: 119px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+
+.trends .gallery {
+    float: left;
+    min-width: 1200px;
+}
+
+.trends .gallery img {
+    margin-right: 17px;
+    margin-bottom: 30px;
+}
+
+.hot {
+    background-image: url(img/slider-table.jpg);
+    width: 1366px;
+    height: 800px;
+    float: left;
+    margin-top: 90px;
+    display: block;
+}
+
+.text h3 {
+    color: #e53935;
+}
+
+.exclusive {
+    min-width: 1170px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 98px;
+}
+
+.exclusive .big-image {
+    float: left;
+    position: relative;
+}
+
+.exclusive .big-image .hover {
+    position: absolute;
+    top: 186px;
+    left: 31px;
+    width: 332px;
+}
+
+.exclusive .big-image .hover h4 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.exclusive .big-image .hover h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive .big-image .hover p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+    margin-bottom: 34px;
+}
+
+.exclusive .image {
+    display: block;
+}
+
+.exclusive .image img {
+    margin-left: 27px;
+    margin-bottom: 27px;
+}
+
+.app {
+    background-image: url(img/back-img.jpg);
+    height: 516px;
+    width: 1366px;
+    float: left;
+    margin-top: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.app .text {
+    margin-top: 0;
+}
+
+.app .text h3 {
+    margin-top: 125px;
+    color: #6c6c6c;
+}
+
+.app .text h2 {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.app .text img {
+    margin-top: 33px;
+}
+
+footer {
+    min-height: 384px;
+    min-width: 1366px;
+    float: left;
+    background-color: #f7f7f7;
+}
+
+footer .contact {
+    margin-top: 120px;
+    margin-left: 99px;
+    float: left;
+    margin-right: 80px;
+}
+
+footer .contact h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+}
+
+footer .contact p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 24px;
+    width: 221px;
+}
+
+footer .info {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+footer .info h3 {
+    color: #6c6c6c;
+}
+
+footer .info ul {
+    margin-top: 24px;
+}
+
+footer .info li {
+    list-style: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+footer .info .column1 {
+    float: left;
+    margin-right: 103px;
+    float: left;
+}
+
+footer .info .column2 {
+    float: left;
+}
+
+footer .in-touch {
+    width: 370px;
+    float: right;
+    margin-right: 98px;
+    margin-top: -25px
+}
+
+footer .in-touch h3 {
+    color: #6c6c6c;
+}
+
+footer .in-touch p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 24px;
+    width: 363px;
+}
+
+footer .in-touch input {
+    width: 350px;
+    height: 48px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-left: 19px;
+    margin-top: 26px;
+    background: #fff url(img/plane.png) no-repeat 330px;
+    border: 1px solid #d9dee1;
+}
+
+footer .bottom {
+    float: left;
+    margin-top: 67px;
+}
+
+footer .bottom h4 {
+    float: left;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 99px;
+    margin-right: 158px;
+}
+
+footer .bottom h5 {
+    float: right;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 200px;
+}
+
+.submenu {
+    min-height: 70px;
+    background-color: #f4f4f4;
+    margin-top: 30px;
+}
+
+.submenu ul {
+    margin-left: 33%;
+    margin-right: 33%;
+    min-width: 650px;
+}
+
+.submenu ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 28px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.submenu ul li:hover {
+    color: #212121;
+}
+
+main img[alt="red chair"] {
+    float: left;
+    margin-top: 72px;
+    margin-left: 98px;
+}
+
+.chair_images {
+    float: left;
+    width: 570px;
+}
+
+.img_slider {
+    margin-left: 248px;
+}
+
+.img_slider img:hover {
+    opacity: 0.5;
+}
+
+.description {
+    width: 520px;
+    float: right;
+    margin-right: 132px;
+    margin-top: 119px;
+
+}
+
+.description h3 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.description h4 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.description h2 {
+    color: #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 88px;
+    text-align: center;
+}
+
+.description h2 .dollar {
+    font-size: 36px;
+}
+
+.description button {
+    background: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+
+.description button a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.description button:hover {
+    background: #f44336 url(img/arrow_White.png) no-repeat 320px;
+}
+
+.description p {
+    line-height: 24px;
+}
+
+.related {
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 120px;
+}
+
+.related h2 {
+    float: left;
+    margin-top: 245px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.related .explore {
+    float: right;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 245px;
+    margin-right: 130px;
+}
+
+.related .gallery {
+    float: left;
+    margin-top: 71px;
+}
+
+.related .gallery img:hover {
+    opacity: 0.5;
+}
