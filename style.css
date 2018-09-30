@@ -94,9 +94,6 @@ img[alt="search"] {
     width: 212px;
     height: 45px;
     border-radius: 22px;
-}
-
-.text a button, .exclusive a button, .order a button {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -582,9 +579,6 @@ main img[alt="red chair"] {
     height: 71px;
     border-radius: 40px;
     margin-bottom: 50px;
-}
-
-.description button a {
     color: white;
     font-size: 18px;
     font-weight: 700;
