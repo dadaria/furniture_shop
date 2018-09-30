@@ -121,10 +121,14 @@ img[alt="navi"] {
     display: block;
 }
 
+.tabs {
+    float: left;
+}
+
 .tabs li {
     list-style: none;
-    float: left;
     display: block;
+    float: left;
 }
 
 .tabs li a {
@@ -136,7 +140,7 @@ img[alt="navi"] {
     color: #6c6c6c;
     font-size: 36px;
     font-weight: 700;
-    margin-top: 120px;
+    margin-top: 38px;
 }
 
 .tabs li a:active {
@@ -414,22 +418,22 @@ footer .info h3 {
     color: #6c6c6c;
 }
 
-footer .info ul {
+footer .info div {
     margin-top: 24px;
 }
 
-footer .info li {
+footer .info .column1 p, footer .info .column2 p {
     list-style: none;
     color: #212121;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
+    display: block;
 }
 
 footer .info .column1 {
     float: left;
     margin-right: 103px;
-    float: left;
 }
 
 footer .info .column2 {
@@ -440,7 +444,7 @@ footer .in-touch {
     width: 370px;
     float: right;
     margin-right: 98px;
-    margin-top: -25px
+    margin-top: -27px;
 }
 
 footer .in-touch h3 {
