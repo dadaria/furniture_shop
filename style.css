@@ -419,11 +419,10 @@ footer .info h3 {
 }
 
 footer .info div {
-    margin-top: 24px;
+    margin-top: 25px;
 }
 
 footer .info .column1 p, footer .info .column2 p {
-    list-style: none;
     color: #212121;
     font-size: 14px;
     font-weight: 700;
