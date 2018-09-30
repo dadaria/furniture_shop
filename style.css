@@ -24,19 +24,19 @@ img[alt="logo"] {
     padding-left: 98px;
 }
 
-nav {
+ul {
     float: right;
     margin-top: 67px;
     margin-right: 21px;
 }
 
-nav li {
+ul li {
     float: left;
     list-style: none;
     text-transform: uppercase;
 }
 
-nav li a {
+ul li a {
     color: #8c8c8c;
     font-size: 14px;
     font-weight: 300;
@@ -46,7 +46,7 @@ nav li a {
     display: block;
 }
 
-nav li a:hover {
+ul li a:hover {
     color: #212121;
     font-weight: 700;
     border-bottom: 1px solid black;
@@ -96,7 +96,7 @@ img[alt="search"] {
     border-radius: 22px;
 }
 
-.text button a, .exclusive button a, .order button a {
+.text a button, .exclusive a button, .order a button {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
